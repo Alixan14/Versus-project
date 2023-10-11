@@ -1,0 +1,125 @@
+.main-section {
+    padding: 6.25rem 0;
+    text-align: center
+}
+
+.main-section__title {
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.313rem
+}
+
+.main-section__button {
+    font-family: Lato, sans-serif;
+    width: 137px;
+    height: 39px;
+    border-radius: 3px;
+    border: 1px solid #00d6b4;
+    color: #00d6b4;
+    text-align: center;
+    font-size: .813rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.188rem;
+    text-transform: uppercase;
+    background: 0 0;
+    -webkit-transition: .4s ease-in;
+    -o-transition: .4s ease-in;
+    transition: .4s ease-in;
+    cursor: pointer
+}
+
+.footer-section__subtitle,
+.footer-section__title,
+.latest-work__title {
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400
+}
+
+.main-section__button:hover {
+    color: #fff;
+    background: #00d6b4
+}
+
+.latest-work {
+    padding: 2.5rem 0;
+    background: #222
+}
+
+.latest-work__title {
+    color: #fff;
+    font-size: 1.563rem;
+    line-height: 1.875rem;
+    margin: 1.875rem 0
+}
+
+.latest-work__images {
+    text-align: center
+}
+
+.latest-work__images img {
+    padding: .75rem .625rem
+}
+
+.footer-section {
+    padding: 1.25rem 0;
+    background-color: #222
+}
+
+.footer-section__title {
+    color: #c2c2c2;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    text-transform: uppercase
+}
+
+.footer-section__subtitle {
+    color: #999;
+    font-size: .75rem;
+    line-height: 1.125rem
+}
+
+@media only screen and (max-width:1200px) {
+    .main-header {
+        padding: .58rem 0
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .main-header {
+        padding: 1.4rem 0
+    }
+
+    .main-section__title {
+        font-size: 2rem
+    }
+
+    .main-navigation__item-2 {
+        display: none
+    }
+
+    .main-navigation__bar {
+        display: block
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .latest-work__images img {
+        width: 280px
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .main-header {
+        padding: 0
+    }
+
+    .main-section {
+        padding: 6rem 0
+    }
+}

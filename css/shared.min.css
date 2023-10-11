@@ -1,0 +1,235 @@
+.main-navigation__link,
+.main-navigation__title {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 400
+}
+
+.main-navigation__link#active,
+.main-navigation__link:hover,
+.site-name {
+    color: #00d6b4
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../Lato-fonts/Lato-BlackItalic.eot');
+    src: url('../Lato-fonts/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato/Lato-BlackItalic.woff2') format('woff2'), url('../fonts/Lato/Lato-BlackItalic.woff') format('woff'), url('../fonts/Lato/Lato-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../Lato-fonts/Lato-Black.eot');
+    src: url('../Lato-fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato/Lato-Black.woff2') format('woff2'), url('../fonts/Lato/Lato-Black.woff') format('woff'), url('../fonts/Lato/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../Lato-fonts/Lato-Bold.eot');
+    src: url('../Lato-fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato/Lato-Bold.woff2') format('woff2'), url('../fonts/Lato/Lato-Bold.woff') format('woff'), url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../Lato-fonts/Lato-BoldItalic.eot');
+    src: url('../Lato-fonts/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato/Lato-BoldItalic.woff2') format('woff2'), url('../fonts/Lato/Lato-BoldItalic.woff') format('woff'), url('../fonts/Lato/Lato-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../Lato-fonts/Lato-Light.eot');
+    src: url('../Lato-fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato/Lato-Light.woff2') format('woff2'), url('../fonts/Lato/Lato-Light.woff') format('woff'), url('../fonts/Lato/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../Lato-fonts/Lato-Italic.eot');
+    src: url('../Lato-fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato/Lato-Italic.woff2') format('woff2'), url('../fonts/Lato/Lato-Italic.woff') format('woff'), url('../fonts/Lato/Lato-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../Lato-fonts/Lato-Regular.eot');
+    src: url('../Lato-fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato/Lato-Regular.woff2') format('woff2'), url('../fonts/Lato/Lato-Regular.woff') format('woff'), url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../Lato-fonts/Lato-LightItalic.eot');
+    src: url('../Lato-fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato/Lato-LightItalic.woff2') format('woff2'), url('../fonts/Lato/Lato-LightItalic.woff') format('woff'), url('../fonts/Lato/Lato-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../Lato-fonts/Lato-Hairline.eot');
+    src: url('../Lato-fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato/Lato-Hairline.woff2') format('woff2'), url('../fonts/Lato/Lato-Hairline.woff') format('woff'), url('../fonts/Lato/Lato-Hairline.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../Lato-fonts/Lato-HairlineItalic.eot');
+    src: url('../Lato-fonts/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato/Lato-HairlineItalic.woff2') format('woff2'), url('../fonts/Lato/Lato-HairlineItalic.woff') format('woff'), url('../fonts/Lato/Lato-HairlineItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none
+}
+
+li,
+ul {
+    list-style: none
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden
+}
+
+.site-name {
+    padding: 1rem 0;
+    background-color: #222;
+    text-align: center
+}
+
+.flex-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto
+}
+
+.main-header {
+    padding: 3.57rem 0;
+    height: 100%;
+    background: url('../img/header-background.png') 0 0/100% 100% no-repeat
+}
+
+.main-navigation {
+    padding-top: 1rem
+}
+
+.main-navigation__title {
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.875rem
+}
+
+.main-navigation__link {
+    width: 2.625rem;
+    color: #999;
+    font-size: 11px;
+    line-height: 1.063rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0 1.25rem;
+    -webkit-transition: color .4s ease-in;
+    -o-transition: color .4s ease-in;
+    transition: color .4s ease-in
+}
+
+.main-navigation__bar {
+    display: none;
+    color: #fff;
+    font-size: 1.5rem
+}
+
+@media only screen and (max-width:1400px) {
+    .container {
+        width: 90%
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .container {
+        width: 90%
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .container {
+        width: 90%
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        width: 90%
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .container {
+        width: 90%
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .container {
+        width: 90%
+    }
+}
